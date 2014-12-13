@@ -1,0 +1,193 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:galatea.team:"
+msgid ""
+"You can not delete teams because you will get error 404 NOT Found. Dissable "
+"active field."
+msgstr ""
+"No puede eliminar este equipos para evitar el error 404 NOT Fount. "
+"Desactivalo."
+
+msgctxt "field:galatea.team,active:"
+msgid "Active"
+msgstr "Activo"
+
+msgctxt "field:galatea.team,avatar:"
+msgid "Avatar"
+msgstr "Avatar"
+
+msgctxt "field:galatea.team,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:galatea.team,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:galatea.team,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:galatea.team,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:galatea.team,long_description:"
+msgid "Long Description"
+msgstr "Descripción larga"
+
+msgctxt "field:galatea.team,metadescription:"
+msgid "Meta Description"
+msgstr "Meta Description"
+
+msgctxt "field:galatea.team,metakeywords:"
+msgid "Meta Keywords"
+msgstr "Meta Keywords"
+
+msgctxt "field:galatea.team,metatitle:"
+msgid "Meta Title"
+msgstr "Meta Title"
+
+msgctxt "field:galatea.team,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:galatea.team,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:galatea.team,slug:"
+msgid "slug"
+msgstr "slug"
+
+msgctxt "field:galatea.team,websites:"
+msgid "Websites"
+msgstr "Sitios web"
+
+msgctxt "field:galatea.team,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:galatea.team,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:galatea.team-galatea.website,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:galatea.team-galatea.website,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:galatea.team-galatea.website,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:galatea.team-galatea.website,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:galatea.team-galatea.website,team:"
+msgid "Team"
+msgstr "Equipo"
+
+msgctxt "field:galatea.team-galatea.website,website:"
+msgid "Website"
+msgstr "Sitio Web"
+
+msgctxt "field:galatea.team-galatea.website,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:galatea.team-galatea.website,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "help:galatea.team,active:"
+msgid "Dissable to not show content team."
+msgstr "Desactivar para no mostrar el contenido del equipo."
+
+msgctxt "help:galatea.team,description:"
+msgid ""
+"You could write wiki markup to create html content. Formats text following "
+"the MediaWiki (http://meta.wikimedia.org/wiki/Help:Editing) syntax."
+msgstr ""
+"Puede escribir etiquetas wiki para el formateo del texto. Para la chuleta de"
+" las etiquetas puede consultar a MediaWiki "
+"(http://meta.wikimedia.org/wiki/Help:Editing)."
+
+msgctxt "help:galatea.team,long_description:"
+msgid ""
+"You could write wiki markup to create html content. Formats text following "
+"the MediaWiki (http://meta.wikimedia.org/wiki/Help:Editing) syntax."
+msgstr ""
+"Puede escribir etiquetas wiki para el formateo del texto. Para la chuleta de"
+" las etiquetas puede consultar a MediaWiki "
+"(http://meta.wikimedia.org/wiki/Help:Editing)."
+
+msgctxt "help:galatea.team,metadescription:"
+msgid ""
+"Almost all search engines recommend it to be shorter than 155 characters of "
+"plain text"
+msgstr ""
+"La mayoría de los motores de búsqueda recomiendan un texto plano de no más "
+"de 155 caracteres"
+
+msgctxt "help:galatea.team,metakeywords:"
+msgid "Separated by comma"
+msgstr "Separado con la coma"
+
+msgctxt "help:galatea.team,slug:"
+msgid "Cannonical uri."
+msgstr "Cannonical uri."
+
+msgctxt "help:galatea.team,websites:"
+msgid "Team will be available in those websites"
+msgstr "Equipo disponible en los sitios web."
+
+msgctxt "model:galatea.team,name:"
+msgid "Galatea Team"
+msgstr "Galatea equipo"
+
+msgctxt "model:galatea.team-galatea.website,name:"
+msgid "Galatea Team - Website"
+msgstr "Galatea Equipo - Sitio web"
+
+msgctxt "model:ir.action,name:act_team_form"
+msgid "Teams"
+msgstr "Equipos"
+
+msgctxt "model:ir.ui.menu,name:menu_galatea_team"
+msgid "Team"
+msgstr "Equipo"
+
+msgctxt "model:ir.ui.menu,name:menu_team_form"
+msgid "Teams"
+msgstr "Equipos"
+
+msgctxt "model:res.group,name:group_galatea_team"
+msgid "Galatea Team"
+msgstr "Galatea equipo"
+
+msgctxt "view:galatea.team:"
+msgid "Descriptions"
+msgstr "Descripciones"
+
+msgctxt "view:galatea.team:"
+msgid "Extra"
+msgstr "Extra"
+
+msgctxt "view:galatea.team:"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "view:galatea.team:"
+msgid "Team"
+msgstr "Equipo"
+
+msgctxt "view:galatea.team:"
+msgid "Teams"
+msgstr "Equipos"
