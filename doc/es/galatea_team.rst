@@ -15,7 +15,7 @@ web deberá tener en cuenta:
   (sin acentos ni espacios). Este campo debe ser único ya que no pueden haber más
   de dos o más slugs en sus empleados. Recuerde que es un campo multi idioma.
   Cuando introduzca un título se le propone un slug a partir del título que después
-  lo podrá cambiar. Un slug podría ser 'mi-articulo-sobre-tryton' y crearia una dirección como
+  lo podrá cambiar. Un slug podría ser 'raimon-esteve' y crearia una dirección como
   http://www.midominio.com/es/equipo/raimon-esteve
 * SEO MetaKeyword. Introduce las palabras clave de su artículo separados por comas
   (no más de 155 carácteres) que se usará para los buscadores. Un ejemplo de MetaKeyword
