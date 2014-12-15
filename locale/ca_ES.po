@@ -64,7 +64,7 @@ msgstr "slug"
 
 msgctxt "field:galatea.team,websites:"
 msgid "Websites"
-msgstr "Lloc web"
+msgstr "Llocs web"
 
 msgctxt "field:galatea.team,write_date:"
 msgid "Write Date"
