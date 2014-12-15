@@ -47,7 +47,7 @@ Todos los empleados
 -------------------
 
 Como toda app dispone de un listado de todos los empleados. Estos siempre
-se listaran por el nombre en orden descendiente.
+se listaran por el nombre en orden ascendiente.
 
 Para acceder a todos los empleados accede a:
 
