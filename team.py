@@ -50,7 +50,7 @@ class GalateaTeam(ModelSQL, ModelView):
         super(GalateaTeam, cls).__setup__()
         cls._order.insert(0, ('name', 'ASC'))
         cls._error_messages.update({
-            'delete_team': ('You can not delete '
+            'delete_teams': ('You can not delete '
                 'teams because you will get error 404 NOT Found. '
                 'Dissable active field.'),
             })
