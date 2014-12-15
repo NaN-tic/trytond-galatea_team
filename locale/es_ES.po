@@ -96,7 +96,7 @@ msgstr "Equipo"
 
 msgctxt "field:galatea.team-galatea.website,website:"
 msgid "Website"
-msgstr "Sitio Web"
+msgstr "Sitio web"
 
 msgctxt "field:galatea.team-galatea.website,write_date:"
 msgid "Write Date"
@@ -134,11 +134,11 @@ msgid ""
 "plain text"
 msgstr ""
 "La mayoría de los motores de búsqueda recomiendan un texto plano de no más "
-"de 155 caracteres"
+"de 155 caracteres."
 
 msgctxt "help:galatea.team,metakeywords:"
 msgid "Separated by comma"
-msgstr "Separado con la coma"
+msgstr "Separado con la coma."
 
 msgctxt "help:galatea.team,slug:"
 msgid "Cannonical uri."

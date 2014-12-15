@@ -96,7 +96,7 @@ msgstr "Equip"
 
 msgctxt "field:galatea.team-galatea.website,website:"
 msgid "Website"
-msgstr "Lloc Web"
+msgstr "Lloc web"
 
 msgctxt "field:galatea.team-galatea.website,write_date:"
 msgid "Write Date"
@@ -137,7 +137,7 @@ msgstr ""
 
 msgctxt "help:galatea.team,metakeywords:"
 msgid "Separated by comma"
-msgstr "Separat amb coma"
+msgstr "Separat amb coma."
 
 msgctxt "help:galatea.team,slug:"
 msgid "Cannonical uri."
@@ -145,7 +145,7 @@ msgstr "Cannonical uri."
 
 msgctxt "help:galatea.team,websites:"
 msgid "Team will be available in those websites"
-msgstr "L'equip està disponible en els llocs web"
+msgstr "L'equip està disponible en els llocs web."
 
 msgctxt "model:galatea.team,name:"
 msgid "Galatea Team"
