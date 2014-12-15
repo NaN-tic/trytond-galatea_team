@@ -7,7 +7,7 @@ msgid ""
 "You can not delete teams because you will get error 404 NOT Found. Dissable "
 "active field."
 msgstr ""
-"No puede eliminar este equipos para evitar el error 404 NOT Fount. "
+"No puede eliminar equipos para evitar el error 404 NOT Fount. "
 "Desactivalo."
 
 msgctxt "field:galatea.team,active:"
