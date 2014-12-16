@@ -3,6 +3,14 @@ msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "error:galatea.team:"
+msgid "\"%(file_name)s\" file mime is not an image (jpg, png or gif)"
+msgstr "El fitxer \"%(file_name)s\" no es una imatge (jpg, png or gif)"
+
+msgctxt "error:galatea.team:"
+msgid "Not know file mime \"%(file_name)s\""
+msgstr "No es coneix el tipus del fitxer \"%(file_name)s\""
+
+msgctxt "error:galatea.team:"
 msgid ""
 "You can not delete teams because you will get error 404 NOT Found. Dissable "
 "active field."
@@ -29,6 +37,10 @@ msgstr "Usuari creació"
 msgctxt "field:galatea.team,description:"
 msgid "Description"
 msgstr "Descripció"
+
+msgctxt "field:galatea.team,file_name:"
+msgid "File Name"
+msgstr "Nom fitxer"
 
 msgctxt "field:galatea.team,id:"
 msgid "ID"
