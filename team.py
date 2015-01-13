@@ -98,6 +98,8 @@ class GalateaTeam(ModelSQL, ModelView):
     def get_image(self, name):
         db_name = Transaction().cursor.dbname
         filename = self.file_name
+        if not filename:
+            return None
         filename = os.path.join(config.get('database', 'path'), db_name,
             'team', filename[0:2], filename[2:4], self.file_name)
 
