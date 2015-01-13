@@ -26,8 +26,7 @@ this repository contains the full copyright notices and license terms. -->
             <label name="metatitle"/>
             <field name="metatitle"/><newline/>
         </page>
-        <page string="Extra" id="extra">
-            <label name="websites"/>
+        <page string="Websites" id="websites">
             <field name="websites"/>
         </page>
     </notebook>
