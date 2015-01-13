@@ -5,9 +5,7 @@ from trytond.model import ModelSQL, ModelView, fields
 from trytond.pool import Pool
 from trytond.transaction import Transaction
 from trytond.config import config
-from trytond.cache import Cache
 from .tools import slugify
-from datetime import datetime
 from mimetypes import guess_type
 import os
 import hashlib
