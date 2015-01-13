@@ -25,6 +25,10 @@ msgctxt "field:galatea.team,avatar:"
 msgid "Avatar"
 msgstr "Avatar"
 
+msgctxt "field:galatea.team,avatar_path:"
+msgid "Avatar Path"
+msgstr "Avatar ruta"
+
 msgctxt "field:galatea.team,create_date:"
 msgid "Create Date"
 msgstr "Fecha creación"
