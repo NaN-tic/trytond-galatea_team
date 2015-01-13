@@ -188,10 +188,6 @@ msgid "Descriptions"
 msgstr "Descripciones"
 
 msgctxt "view:galatea.team:"
-msgid "Extra"
-msgstr "Extra"
-
-msgctxt "view:galatea.team:"
 msgid "SEO"
 msgstr "SEO"
 
@@ -202,3 +198,7 @@ msgstr "Equipo"
 msgctxt "view:galatea.team:"
 msgid "Teams"
 msgstr "Equipos"
+
+msgctxt "view:galatea.team:"
+msgid "Websites"
+msgstr "Sitios web"
