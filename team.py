@@ -24,6 +24,7 @@ class GalateaTeam(ModelSQL, ModelView):
         help='Cannonical uri.')
     avatar = fields.Function(fields.Binary('Avatar', filename='file_name'), 'get_image',
         setter='set_image')
+    avatar_path = fields.Function(fields.Char('Avatar Path'), 'get_avatarpath')
     file_name = fields.Char('File Name', required=True)
     description = fields.Text('Description', required=True, translate=True,
         help='You could write wiki markup to create html content. Formats text following '
@@ -94,7 +95,6 @@ class GalateaTeam(ModelSQL, ModelView):
     def delete(cls, teams):
         cls.raise_user_error('delete_teams')
 
-
     def get_image(self, name):
         db_name = Transaction().cursor.dbname
         filename = self.file_name
@@ -110,6 +110,12 @@ class GalateaTeam(ModelSQL, ModelView):
         except IOError:
             pass
         return value
+
+    def get_avatarpath(self, name):
+        filename = self.file_name
+        if not filename:
+            return None
+        return '%s/%s/%s' % (filename[:2], filename[2:4], filename)
 
     @classmethod
     def set_image(cls, teams, name, value):
