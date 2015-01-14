@@ -141,7 +141,7 @@ class GalateaTeam(ModelSQL, ModelView):
             filename = os.path.join(directory, digest)
 
             if not os.path.isdir(directory):
-                os.makedirs(directory, 0774)
+                os.makedirs(directory, 0775)
             os.umask(0022)
             with open(filename, 'wb') as file_p:
                 file_p.write(value)
