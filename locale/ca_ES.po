@@ -11,6 +11,10 @@ msgid "Not know file mime \"%(file_name)s\""
 msgstr "No es coneix el tipus del fitxer \"%(file_name)s\""
 
 msgctxt "error:galatea.team:"
+msgid "You can not copy teams. Create new record."
+msgstr "No pot clonar equips. Crea un nou registre."
+
+msgctxt "error:galatea.team:"
 msgid ""
 "You can not delete teams because you will get error 404 NOT Found. Dissable "
 "active field."
