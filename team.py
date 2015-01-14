@@ -66,6 +66,7 @@ class GalateaTeam(ModelSQL, ModelView):
         super(GalateaTeam, cls).__setup__()
         cls._order.insert(0, ('name', 'ASC'))
         cls._error_messages.update({
+            'copy_teams': ('You can not copy teams. Create new record.'),
             'delete_teams': ('You can not delete teams because you will get error ' \
                 '404 NOT Found. Dissable active field.'),
             'not_file_mime': ('Not know file mime "%(file_name)s"'),
@@ -82,12 +83,7 @@ class GalateaTeam(ModelSQL, ModelView):
 
     @classmethod
     def copy(cls, teams, default=None):
-        new_teams = []
-        for team in teams:
-            default['slug'] = '%s-copy' % team.slug
-            new_team, = super(GalateaTeam, cls).copy([team], default=default)
-            teams.append(new_team)
-        return new_teams
+        cls.raise_user_error('copy_teams')
 
     @classmethod
     def delete(cls, teams):
