@@ -10,7 +10,6 @@ this repository contains the full copyright notices and license terms. -->
     <field name="active"/>
     <label name="avatar"/>
     <field name="avatar"/>
-    <label name="file_name"/>
     <field name="file_name" invisible="1"/>
     <notebook colspan="4">
         <page string="Descriptions" id="descriptions">
