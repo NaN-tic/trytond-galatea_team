@@ -95,7 +95,7 @@ class GalateaTeam(ModelSQL, ModelView):
         if not filename:
             return None
         filename = os.path.join(config.get('database', 'path'), db_name,
-            'team', filename[0:2], filename[2:4], self.file_name)
+            'team', filename[0:2], filename[2:4], filename)
 
         value = None
         try:
