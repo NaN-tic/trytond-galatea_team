@@ -6,8 +6,8 @@ import logging
 try:
     import slug
 except ImportError:
-    logging.getLogger('galatea team').error(
-            'Unable to import slug. Install slug package.')
+    logger = logging.getLogger(__name__)
+    logger.error('Unable to import slug. Install slug package.')
 
 def slugify(value):
     """Convert value to slug: az09 and replace spaces by -"""
