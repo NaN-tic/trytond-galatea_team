@@ -17,7 +17,7 @@ IMAGE_TYPES = ['image/jpeg', 'image/png',  'image/gif']
 class GalateaTeam(ModelSQL, ModelView):
     "Galatea Team"
     __name__ = 'galatea.team'
-    name = fields.Char('Name', required=True, on_change=['name', 'slug'])
+    name = fields.Char('Name', required=True)
     slug = fields.Char('slug', required=True, translate=True,
         help='Cannonical uri.')
     avatar = fields.Function(fields.Binary('Avatar', filename='file_name'), 'get_image',
