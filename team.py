@@ -53,7 +53,7 @@ class GalateaTeam(ModelSQL, ModelView):
 
     @staticmethod
     def _create_team_dir():
-        db_name = Transaction().cursor.dbname
+        db_name = Transaction().database.name
         directory = os.path.join(config.get('database', 'path'), db_name)
         if not os.path.isdir(directory):
             os.makedirs(directory, 0770)
@@ -89,7 +89,7 @@ class GalateaTeam(ModelSQL, ModelView):
         cls.raise_user_error('delete_teams')
 
     def get_image(self, name):
-        db_name = Transaction().cursor.dbname
+        db_name = Transaction().database.name
         filename = self.file_name
         if not filename:
             return None
@@ -115,7 +115,7 @@ class GalateaTeam(ModelSQL, ModelView):
         if value is None:
             return
 
-        db_name = Transaction().cursor.dbname
+        db_name = Transaction().database.name
         teamdir = os.path.join(
             config.get('database', 'path'), db_name, 'team')
 
